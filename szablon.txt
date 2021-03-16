@@ -1,0 +1,8 @@
+#include <stdio.h>
+#define MAX 40
+struct rok {
+    char nazwa[MAX];
+    char skrot[4];
+    int iledni;
+    int nrmsc;
+};
