@@ -15,7 +15,6 @@ int main(void){
 }
 
 int liczydlo(char msc[]){
-    printf("%s\n", msc);
     struct rok kalendarz[12];
     int rozmiar = sizeof(struct rok);
     FILE *kal;
