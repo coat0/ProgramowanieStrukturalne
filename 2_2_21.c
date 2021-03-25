@@ -12,7 +12,10 @@ int main(void){
 }
 
 int funkcja(int n){
-    if(n!=0) n = 2*funkcja(n-1) + 5;
+    if(n!=0){
+    n = 2*funkcja(n-1) + 5;
+    return n;
+    }
     else
         return 1;
 }
